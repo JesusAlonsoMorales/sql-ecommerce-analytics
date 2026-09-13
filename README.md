@@ -145,16 +145,61 @@ básico a lo más avanzado:
 - Salida de `EXPLAIN` que demuestra que el índice compuesto sobre
   `pedidos(cliente_id, fecha_pedido)` se usa de verdad en ese patrón de consulta
 
-## Ejemplo de insight
+## Resultados y hallazgos
 
-Al ejecutar la consulta RFM sobre el dataset generado suele aparecer el
-patrón clásico 80/20: un segmento pequeño de "Campeones" (recientes,
-frecuentes, de gasto alto) genera una parte desproporcionada de los
-ingresos, mientras que el segmento "Perdido" —clientes sin compras desde
-hace mucho— es lo bastante grande como para que incluso una campaña de
-reactivación modesta dirigida al segmento "En riesgo (alto valor)"
-merecería la pena presupuestarla. Ese es el tipo de hallazgo que este
-repo está pensado para producir, no solo la consulta que lo produce.
+Salida real de ejecutar el proyecto sobre el dataset generado (500 clientes,
+~6.000 pedidos): **5.283 pedidos completados, 1.379.549,13 € de ingresos,
+261,13 € de ticket medio** (**P1**).
+
+### Segmentación RFM (P9)
+
+| Segmento | Clientes | % clientes | Ingresos | % ingresos |
+|---|---:|---:|---:|---:|
+| Campeón | 122 | 24,4% | 449.864,24 € | 32,6% |
+| En riesgo (alto valor) | 75 | 15,0% | 294.156,73 € | 21,3% |
+| Perdido / Fugado | 149 | 29,8% | 287.547,29 € | 20,8% |
+| Nuevo / Prometedor | 101 | 20,2% | 227.147,38 € | 16,5% |
+| Regular | 53 | 10,6% | 120.833,49 € | 8,8% |
+
+**Lectura de negocio:** los "Campeones" son solo el 24% de la cartera pero
+generan el 33% de los ingresos — la concentración de valor esperable. El
+dato que de verdad justificaría una acción es otro: el segmento **"En
+riesgo (alto valor)"** son clientes que históricamente han gastado y
+comprado tanto como los Campeones (mismas puntuaciones de frecuencia y
+gasto, `puntuacion_f`/`puntuacion_m` = 4) pero llevan más tiempo sin
+volver (`puntuacion_r` baja). Son 75 clientes — el 15% de la base — que
+representan 294.157 € de historial de compra, prácticamente a la par que
+el segmento "Perdido", que triplica en número de clientes (149) pero solo
+aporta un 20,8% de ingresos porque su gasto histórico era mucho menor.
+Consecuencia práctica: una campaña de reactivación dirigida específicamente
+a esos 75 clientes en riesgo tiene mucho mejor retorno esperado por
+cliente contactado que una campaña genérica de "clientes que no compran
+hace tiempo", porque no todos los inactivos valen lo mismo.
+
+### Tasa de devolución por categoría (P12)
+
+| Categoría | Unidades vendidas | Unidades devueltas | Tasa devolución |
+|---|---:|---:|---:|
+| Material de Oficina | 2.056 | 47 | 2,29% |
+| Electrónica | 4.976 | 112 | 2,25% |
+| Libros | 2.586 | 58 | 2,24% |
+| Juguetes y Juegos | 2.053 | 41 | 2,00% |
+| Deporte y Aire Libre | 3.702 | 74 | 2,00% |
+| Alimentación | 2.135 | 42 | 1,97% |
+| Moda | 2.580 | 50 | 1,94% |
+| Hogar y Cocina | 4.148 | 80 | 1,93% |
+| Belleza y Cuidado Personal | 2.550 | 49 | 1,92% |
+| Mascotas | 2.105 | 28 | 1,33% |
+
+**Lectura de negocio:** la tasa de devolución se mueve en una banda estrecha
+(1,3%–2,3%), sin una categoría que destaque como problemática — no hay una
+señal de calidad que perseguir de forma prioritaria. Lo que sí llama la
+atención es **Material de Oficina**, con la tasa más alta a pesar de tener
+un volumen de ventas relativamente bajo (2.056 unidades frente a las 4.976
+de Electrónica): en proporción, es la categoría donde más vale la pena
+revisar la ficha de producto o la descripción antes de compra, ya que un
+mismo esfuerzo de mejora tiene más impacto relativo ahí que en Electrónica.
+**Mascotas**, en el otro extremo, es la categoría más fiable.
 
 ## Notas sobre los datos sintéticos
 
