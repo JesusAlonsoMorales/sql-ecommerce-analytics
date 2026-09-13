@@ -218,3 +218,9 @@ igualmente.
 MySQL 8.0 — CTEs, funciones de ventana (`RANK`, `NTILE`, `LAG`),
 procedimientos almacenados, vistas, restricciones `CHECK`, índices
 compuestos.
+
+## Próximos pasos
+
+- [ ] **Dashboard en Power BI** conectado a `vista_valor_vida_cliente` y a
+  las consultas de la Sección 2 (evolución mensual, RFM), para cerrar el
+  ciclo de SQL → visualización → decisión de negocio.
