@@ -1,5 +1,5 @@
 -- ============================================================
--- ShopSphere — Analítica de Ventas Online — Esquema
+-- Analítica de Ventas Online — Esquema
 -- MySQL 8.0+
 -- ============================================================
 
