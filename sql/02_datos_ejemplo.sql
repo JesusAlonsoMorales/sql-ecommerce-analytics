@@ -1,5 +1,5 @@
 -- ============================================================
--- ShopSphere — Datos sintéticos de ejemplo
+-- Datos sintéticos de ejemplo
 -- Genera ~500 clientes, ~110 productos, ~6.000 pedidos,
 -- ~14.000 líneas de pedido, pagos coherentes y ~4% de devoluciones.
 -- Todo en SQL puro (sin scripts externos), para que el proyecto
