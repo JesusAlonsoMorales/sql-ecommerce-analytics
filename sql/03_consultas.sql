@@ -1,5 +1,5 @@
 -- ============================================================
--- ShopSphere — Preguntas de negocio
+-- Preguntas de negocio
 -- Organizadas de lo más básico a lo más avanzado. Cada consulta
 -- responde a una pregunta concreta que haría un stakeholder real.
 -- ============================================================
