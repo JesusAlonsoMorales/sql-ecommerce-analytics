@@ -1,0 +1,501 @@
+cliente_id,nombre,apellidos,email,ciudad,comunidad_autonoma,fecha_alta,acepta_marketing
+1,David,Vega,david.vega0@ejemplo.com,Toledo,"Castilla-La Mancha",2021-06-16,0
+2,Ana,Ruiz,ana.ruiz1@ejemplo.com,Zaragoza,Aragón,2022-11-06,1
+3,Carlos,Molina,carlos.molina2@ejemplo.com,Granada,Andalucía,2022-03-13,1
+4,Alicia,Martínez,alicia.martínez3@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2023-02-24,1
+5,Marc,García,marc.garcía4@ejemplo.com,Córdoba,Andalucía,2021-08-11,1
+6,Adrián,Vega,adrián.vega5@ejemplo.com,"San Sebastián","País Vasco",2023-01-17,1
+7,Marc,Gómez,marc.gómez6@ejemplo.com,Badajoz,Extremadura,2022-07-09,1
+8,Elena,Gómez,elena.gómez7@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-09-08,0
+9,Javier,Pérez,javier.pérez8@ejemplo.com,Zaragoza,Aragón,2022-05-12,1
+10,Irene,López,irene.lópez9@ejemplo.com,Salamanca,"Castilla y León",2023-03-15,1
+11,Elena,López,elena.lópez10@ejemplo.com,Vigo,Galicia,2021-01-19,0
+12,Ana,Navarro,ana.navarro11@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2022-12-23,0
+13,Diego,Navarro,diego.navarro12@ejemplo.com,Bilbao,"País Vasco",2023-04-18,0
+14,Elena,Molina,elena.molina13@ejemplo.com,Bilbao,"País Vasco",2021-05-30,0
+15,María,Torres,maría.torres14@ejemplo.com,Gijón,Asturias,2023-06-19,0
+16,Lucía,García,lucía.garcía15@ejemplo.com,Logroño,"La Rioja",2022-12-31,0
+17,Irene,Torres,irene.torres16@ejemplo.com,"San Sebastián","País Vasco",2022-04-14,1
+18,Carlos,López,carlos.lópez17@ejemplo.com,Toledo,"Castilla-La Mancha",2021-09-19,1
+19,Ana,Vega,ana.vega18@ejemplo.com,Logroño,"La Rioja",2021-07-13,1
+20,Irene,Fernández,irene.fernández19@ejemplo.com,Barcelona,Cataluña,2023-03-23,1
+21,Pablo,Castro,pablo.castro20@ejemplo.com,Córdoba,Andalucía,2021-07-25,1
+22,David,Díaz,david.díaz21@ejemplo.com,Córdoba,Andalucía,2021-05-08,0
+23,Javier,Ortiz,javier.ortiz22@ejemplo.com,Murcia,"Región de Murcia",2021-09-10,1
+24,Diego,García,diego.garcía23@ejemplo.com,Toledo,"Castilla-La Mancha",2022-12-31,0
+25,Javier,Gómez,javier.gómez24@ejemplo.com,Granada,Andalucía,2023-02-05,1
+26,Adrián,Suárez,adrián.suárez25@ejemplo.com,Santander,Cantabria,2022-06-04,1
+27,Sofía,Sánchez,sofía.sánchez26@ejemplo.com,Málaga,Andalucía,2023-04-11,1
+28,Adrián,Molina,adrián.molina27@ejemplo.com,"Palma de Mallorca","Illes Balears",2022-07-23,0
+29,Laura,Álvarez,laura.álvarez28@ejemplo.com,Madrid,"Comunidad de Madrid",2022-02-12,0
+30,Sergio,Molina,sergio.molina29@ejemplo.com,Vigo,Galicia,2021-03-04,1
+31,Clara,Gómez,clara.gómez30@ejemplo.com,Oviedo,Asturias,2022-06-04,0
+32,Ana,Díaz,ana.díaz31@ejemplo.com,Zaragoza,Aragón,2021-08-29,1
+33,Sergio,Pérez,sergio.pérez32@ejemplo.com,Valencia,"Comunidad Valenciana",2022-02-05,1
+34,Ana,Martínez,ana.martínez33@ejemplo.com,Murcia,"Región de Murcia",2022-08-20,1
+35,Adrián,Moreno,adrián.moreno34@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-07-10,0
+36,Sofía,Moreno,sofía.moreno35@ejemplo.com,Madrid,"Comunidad de Madrid",2022-08-18,0
+37,Nora,Gómez,nora.gómez36@ejemplo.com,Valladolid,"Castilla y León",2021-03-06,0
+38,Laura,Díaz,laura.díaz37@ejemplo.com,Valladolid,"Castilla y León",2021-12-08,0
+39,María,Moreno,maría.moreno38@ejemplo.com,Badajoz,Extremadura,2022-04-20,1
+40,Laura,Molina,laura.molina39@ejemplo.com,Santander,Cantabria,2021-06-29,0
+41,Javier,Fernández,javier.fernández40@ejemplo.com,Vigo,Galicia,2021-05-09,0
+42,María,García,maría.garcía41@ejemplo.com,Madrid,"Comunidad de Madrid",2021-05-07,0
+43,Leo,Gómez,leo.gómez42@ejemplo.com,Vigo,Galicia,2021-05-20,0
+44,Sergio,Vega,sergio.vega43@ejemplo.com,Sevilla,Andalucía,2021-10-18,0
+45,Lucía,Gómez,lucía.gómez44@ejemplo.com,Bilbao,"País Vasco",2021-01-25,1
+46,Alicia,Delgado,alicia.delgado45@ejemplo.com,Valladolid,"Castilla y León",2022-08-07,0
+47,Lucía,Castro,lucía.castro46@ejemplo.com,Logroño,"La Rioja",2021-06-11,1
+48,Irene,Fernández,irene.fernández47@ejemplo.com,Logroño,"La Rioja",2021-01-02,0
+49,Sofía,Martínez,sofía.martínez48@ejemplo.com,Salamanca,"Castilla y León",2021-10-31,1
+50,Laura,Martínez,laura.martínez49@ejemplo.com,Vigo,Galicia,2021-01-20,0
+51,Pablo,Fernández,pablo.fernández50@ejemplo.com,Granada,Andalucía,2022-06-20,0
+52,Elena,Martínez,elena.martínez51@ejemplo.com,Badajoz,Extremadura,2023-01-27,0
+53,Alicia,Delgado,alicia.delgado52@ejemplo.com,Sevilla,Andalucía,2022-06-23,1
+54,Diego,Castro,diego.castro53@ejemplo.com,Valladolid,"Castilla y León",2021-02-19,0
+55,Nora,Delgado,nora.delgado54@ejemplo.com,Elche,"Comunidad Valenciana",2023-05-18,1
+56,Diego,Molina,diego.molina55@ejemplo.com,Elche,"Comunidad Valenciana",2021-06-21,0
+57,Diego,García,diego.garcía56@ejemplo.com,Málaga,Andalucía,2022-09-29,1
+58,Clara,Pérez,clara.pérez57@ejemplo.com,Córdoba,Andalucía,2021-10-14,0
+59,Carlos,Fernández,carlos.fernández58@ejemplo.com,"San Sebastián","País Vasco",2022-05-05,0
+60,Clara,Vega,clara.vega59@ejemplo.com,Logroño,"La Rioja",2023-05-20,0
+61,Marc,Vega,marc.vega60@ejemplo.com,Santander,Cantabria,2021-03-21,1
+62,Carlos,Ruiz,carlos.ruiz61@ejemplo.com,"San Sebastián","País Vasco",2021-02-08,0
+63,Diego,Ruiz,diego.ruiz62@ejemplo.com,Córdoba,Andalucía,2023-05-17,1
+64,Javier,Fernández,javier.fernández63@ejemplo.com,Salamanca,"Castilla y León",2021-07-03,0
+65,Marc,Suárez,marc.suárez64@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2023-02-13,0
+66,Clara,Fernández,clara.fernández65@ejemplo.com,Bilbao,"País Vasco",2023-01-01,1
+67,Nora,Gómez,nora.gómez66@ejemplo.com,Toledo,"Castilla-La Mancha",2021-09-16,0
+68,David,Díaz,david.díaz67@ejemplo.com,Córdoba,Andalucía,2021-04-20,1
+69,Leo,Fernández,leo.fernández68@ejemplo.com,Valladolid,"Castilla y León",2021-12-30,1
+70,Pablo,Gómez,pablo.gómez69@ejemplo.com,Badajoz,Extremadura,2021-07-16,1
+71,Diego,Fernández,diego.fernández70@ejemplo.com,Santander,Cantabria,2021-11-05,0
+72,Irene,Díaz,irene.díaz71@ejemplo.com,Murcia,"Región de Murcia",2021-05-14,0
+73,Sofía,Navarro,sofía.navarro72@ejemplo.com,Oviedo,Asturias,2021-11-22,0
+74,Sergio,Pérez,sergio.pérez73@ejemplo.com,Valencia,"Comunidad Valenciana",2022-04-01,0
+75,Sofía,Vega,sofía.vega74@ejemplo.com,"A Coruña",Galicia,2023-05-31,0
+76,David,Ruiz,david.ruiz75@ejemplo.com,Gijón,Asturias,2022-07-29,0
+77,María,Moreno,maría.moreno76@ejemplo.com,Salamanca,"Castilla y León",2022-06-08,1
+78,Lucía,Álvarez,lucía.álvarez77@ejemplo.com,Badajoz,Extremadura,2022-06-14,1
+79,Javier,Díaz,javier.díaz78@ejemplo.com,Sevilla,Andalucía,2021-09-20,1
+80,Elena,Pérez,elena.pérez79@ejemplo.com,Málaga,Andalucía,2022-03-11,0
+81,Marc,Delgado,marc.delgado80@ejemplo.com,Murcia,"Región de Murcia",2021-12-28,1
+82,Sergio,Romero,sergio.romero81@ejemplo.com,Bilbao,"País Vasco",2021-12-26,1
+83,Marc,García,marc.garcía82@ejemplo.com,Oviedo,Asturias,2022-04-03,1
+84,Carlos,García,carlos.garcía83@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2023-01-13,1
+85,Alicia,Martínez,alicia.martínez84@ejemplo.com,Madrid,"Comunidad de Madrid",2023-02-04,1
+86,David,Díaz,david.díaz85@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-01-03,0
+87,Nora,López,nora.lópez86@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2022-03-29,1
+88,Javier,Álvarez,javier.álvarez87@ejemplo.com,Sevilla,Andalucía,2022-01-06,1
+89,Sergio,García,sergio.garcía88@ejemplo.com,Málaga,Andalucía,2022-02-01,1
+90,Sofía,Navarro,sofía.navarro89@ejemplo.com,"San Sebastián","País Vasco",2021-09-21,1
+91,María,Navarro,maría.navarro90@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2021-12-05,0
+92,Leo,Torres,leo.torres91@ejemplo.com,Salamanca,"Castilla y León",2023-02-13,0
+93,David,Romero,david.romero92@ejemplo.com,Zaragoza,Aragón,2021-11-10,0
+94,Clara,Torres,clara.torres93@ejemplo.com,Zaragoza,Aragón,2021-10-06,1
+95,Ana,Álvarez,ana.álvarez94@ejemplo.com,Málaga,Andalucía,2021-05-08,1
+96,Clara,Suárez,clara.suárez95@ejemplo.com,Logroño,"La Rioja",2022-09-14,0
+97,Carlos,Martínez,carlos.martínez96@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2021-03-10,1
+98,Pablo,Díaz,pablo.díaz97@ejemplo.com,Valladolid,"Castilla y León",2023-03-05,1
+99,Carlos,Ortiz,carlos.ortiz98@ejemplo.com,"A Coruña",Galicia,2022-04-22,1
+100,Laura,Vega,laura.vega99@ejemplo.com,Zaragoza,Aragón,2021-12-16,1
+101,Sofía,Gómez,sofía.gómez100@ejemplo.com,Valencia,"Comunidad Valenciana",2022-04-23,0
+102,Irene,Suárez,irene.suárez101@ejemplo.com,Zaragoza,Aragón,2023-01-19,1
+103,Sergio,Sánchez,sergio.sánchez102@ejemplo.com,"Palma de Mallorca","Illes Balears",2021-10-16,1
+104,Leo,Fernández,leo.fernández103@ejemplo.com,Málaga,Andalucía,2021-11-15,0
+105,Hugo,Martínez,hugo.martínez104@ejemplo.com,Valladolid,"Castilla y León",2021-08-03,0
+106,Pablo,Sánchez,pablo.sánchez105@ejemplo.com,Bilbao,"País Vasco",2022-06-26,1
+107,Marc,Torres,marc.torres106@ejemplo.com,Salamanca,"Castilla y León",2021-09-20,1
+108,Alicia,Pérez,alicia.pérez107@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-07-26,1
+109,Diego,Moreno,diego.moreno108@ejemplo.com,Gijón,Asturias,2021-08-30,0
+110,Diego,Álvarez,diego.álvarez109@ejemplo.com,Alicante,"Comunidad Valenciana",2021-11-23,1
+111,Diego,Navarro,diego.navarro110@ejemplo.com,Gijón,Asturias,2023-05-21,0
+112,Sergio,Sánchez,sergio.sánchez111@ejemplo.com,Barcelona,Cataluña,2021-08-17,0
+113,Carlos,Pérez,carlos.pérez112@ejemplo.com,Valencia,"Comunidad Valenciana",2022-12-09,1
+114,Leo,Moreno,leo.moreno113@ejemplo.com,Sevilla,Andalucía,2021-11-10,1
+115,Javier,Díaz,javier.díaz114@ejemplo.com,Vigo,Galicia,2021-10-07,1
+116,Sofía,Moreno,sofía.moreno115@ejemplo.com,"San Sebastián","País Vasco",2022-11-25,1
+117,Clara,Romero,clara.romero116@ejemplo.com,Badajoz,Extremadura,2021-07-16,1
+118,Irene,Navarro,irene.navarro117@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-07-22,1
+119,Pablo,Molina,pablo.molina118@ejemplo.com,Toledo,"Castilla-La Mancha",2021-11-02,0
+120,Nora,Vega,nora.vega119@ejemplo.com,Elche,"Comunidad Valenciana",2022-10-23,0
+121,Elena,Romero,elena.romero120@ejemplo.com,"San Sebastián","País Vasco",2022-06-07,1
+122,Elena,Molina,elena.molina121@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2021-03-13,1
+123,Sergio,Gómez,sergio.gómez122@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-09-15,0
+124,Sergio,Pérez,sergio.pérez123@ejemplo.com,Murcia,"Región de Murcia",2022-02-06,0
+125,Javier,Martínez,javier.martínez124@ejemplo.com,Gijón,Asturias,2023-01-29,1
+126,Nora,Suárez,nora.suárez125@ejemplo.com,"A Coruña",Galicia,2021-11-29,1
+127,Hugo,Torres,hugo.torres126@ejemplo.com,Oviedo,Asturias,2021-06-26,0
+128,Irene,Fernández,irene.fernández127@ejemplo.com,Valladolid,"Castilla y León",2022-12-03,0
+129,Adrián,Molina,adrián.molina128@ejemplo.com,"San Sebastián","País Vasco",2023-02-06,1
+130,Elena,García,elena.garcía129@ejemplo.com,Vigo,Galicia,2022-07-31,1
+131,Lucía,Moreno,lucía.moreno130@ejemplo.com,"A Coruña",Galicia,2021-11-21,1
+132,Ana,Pérez,ana.pérez131@ejemplo.com,Córdoba,Andalucía,2021-12-23,1
+133,Diego,Delgado,diego.delgado132@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2023-01-08,0
+134,Javier,Navarro,javier.navarro133@ejemplo.com,Murcia,"Región de Murcia",2023-04-19,0
+135,Diego,Navarro,diego.navarro134@ejemplo.com,Bilbao,"País Vasco",2023-05-07,0
+136,Irene,Delgado,irene.delgado135@ejemplo.com,Gijón,Asturias,2022-01-25,0
+137,Lucía,Romero,lucía.romero136@ejemplo.com,Badajoz,Extremadura,2023-01-19,1
+138,María,Delgado,maría.delgado137@ejemplo.com,Toledo,"Castilla-La Mancha",2021-05-22,1
+139,Javier,Álvarez,javier.álvarez138@ejemplo.com,Valladolid,"Castilla y León",2021-10-25,0
+140,Carlos,Ortiz,carlos.ortiz139@ejemplo.com,"A Coruña",Galicia,2022-08-02,0
+141,Carlos,Ruiz,carlos.ruiz140@ejemplo.com,"San Sebastián","País Vasco",2021-06-16,1
+142,Sergio,Álvarez,sergio.álvarez141@ejemplo.com,Santander,Cantabria,2021-05-06,0
+143,Leo,Sánchez,leo.sánchez142@ejemplo.com,"A Coruña",Galicia,2022-07-14,0
+144,Sergio,Álvarez,sergio.álvarez143@ejemplo.com,Elche,"Comunidad Valenciana",2021-10-02,0
+145,María,Suárez,maría.suárez144@ejemplo.com,Valencia,"Comunidad Valenciana",2022-06-13,1
+146,Clara,Navarro,clara.navarro145@ejemplo.com,Valladolid,"Castilla y León",2022-06-22,0
+147,Diego,Delgado,diego.delgado146@ejemplo.com,Salamanca,"Castilla y León",2022-08-08,0
+148,Adrián,Molina,adrián.molina147@ejemplo.com,Valencia,"Comunidad Valenciana",2022-05-21,0
+149,Hugo,Sánchez,hugo.sánchez148@ejemplo.com,Logroño,"La Rioja",2023-01-21,0
+150,Elena,Álvarez,elena.álvarez149@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-11-30,1
+151,Adrián,Pérez,adrián.pérez150@ejemplo.com,Zaragoza,Aragón,2021-05-15,1
+152,Elena,Navarro,elena.navarro151@ejemplo.com,Alicante,"Comunidad Valenciana",2022-12-22,1
+153,Diego,Gómez,diego.gómez152@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2023-03-21,0
+154,Alicia,Castro,alicia.castro153@ejemplo.com,Valladolid,"Castilla y León",2023-01-30,0
+155,Ana,García,ana.garcía154@ejemplo.com,"Palma de Mallorca","Illes Balears",2022-02-01,1
+156,Pablo,Torres,pablo.torres155@ejemplo.com,Sevilla,Andalucía,2021-01-22,0
+157,Elena,Vega,elena.vega156@ejemplo.com,Zaragoza,Aragón,2021-08-26,1
+158,Javier,García,javier.garcía157@ejemplo.com,Bilbao,"País Vasco",2022-03-21,1
+159,Sergio,Molina,sergio.molina158@ejemplo.com,Salamanca,"Castilla y León",2023-05-19,0
+160,David,Fernández,david.fernández159@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-12-13,0
+161,Leo,Pérez,leo.pérez160@ejemplo.com,"A Coruña",Galicia,2023-02-17,0
+162,Pablo,Moreno,pablo.moreno161@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-02-15,0
+163,Nora,Ruiz,nora.ruiz162@ejemplo.com,"Palma de Mallorca","Illes Balears",2021-08-31,0
+164,Leo,Torres,leo.torres163@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2023-03-05,1
+165,Irene,López,irene.lópez164@ejemplo.com,Salamanca,"Castilla y León",2023-03-23,1
+166,David,Gómez,david.gómez165@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-02-21,1
+167,Adrián,Vega,adrián.vega166@ejemplo.com,"San Sebastián","País Vasco",2023-03-26,0
+168,Hugo,Torres,hugo.torres167@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2021-02-05,0
+169,David,Castro,david.castro168@ejemplo.com,Salamanca,"Castilla y León",2022-02-22,0
+170,María,Ruiz,maría.ruiz169@ejemplo.com,Zaragoza,Aragón,2021-05-09,1
+171,Alicia,Martínez,alicia.martínez170@ejemplo.com,Murcia,"Región de Murcia",2023-01-30,0
+172,María,Castro,maría.castro171@ejemplo.com,Murcia,"Región de Murcia",2021-09-08,0
+173,Hugo,Molina,hugo.molina172@ejemplo.com,Zaragoza,Aragón,2022-08-21,1
+174,María,Delgado,maría.delgado173@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2021-03-01,0
+175,Nora,Pérez,nora.pérez174@ejemplo.com,Salamanca,"Castilla y León",2023-05-19,1
+176,Hugo,Álvarez,hugo.álvarez175@ejemplo.com,Gijón,Asturias,2023-05-16,1
+177,Sergio,Delgado,sergio.delgado176@ejemplo.com,Granada,Andalucía,2022-02-16,0
+178,Hugo,Castro,hugo.castro177@ejemplo.com,Salamanca,"Castilla y León",2021-08-30,0
+179,Leo,Suárez,leo.suárez178@ejemplo.com,Madrid,"Comunidad de Madrid",2021-08-30,1
+180,Adrián,López,adrián.lópez179@ejemplo.com,Elche,"Comunidad Valenciana",2022-06-13,0
+181,Carlos,Sánchez,carlos.sánchez180@ejemplo.com,"Palma de Mallorca","Illes Balears",2022-10-19,1
+182,Leo,Sánchez,leo.sánchez181@ejemplo.com,Granada,Andalucía,2022-07-18,0
+183,Leo,Moreno,leo.moreno182@ejemplo.com,Sevilla,Andalucía,2021-10-24,1
+184,David,Ruiz,david.ruiz183@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-08-25,0
+185,Hugo,Navarro,hugo.navarro184@ejemplo.com,Zaragoza,Aragón,2022-01-03,0
+186,María,Díaz,maría.díaz185@ejemplo.com,Gijón,Asturias,2022-10-23,0
+187,María,Suárez,maría.suárez186@ejemplo.com,Toledo,"Castilla-La Mancha",2022-03-07,0
+188,Clara,García,clara.garcía187@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-05-25,0
+189,Irene,Gómez,irene.gómez188@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-07-23,1
+190,Javier,Vega,javier.vega189@ejemplo.com,Oviedo,Asturias,2021-10-08,0
+191,Pablo,Fernández,pablo.fernández190@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2022-06-18,0
+192,Lucía,Suárez,lucía.suárez191@ejemplo.com,Barcelona,Cataluña,2021-12-29,1
+193,Lucía,Ortiz,lucía.ortiz192@ejemplo.com,Valladolid,"Castilla y León",2022-07-02,0
+194,Leo,Gómez,leo.gómez193@ejemplo.com,"A Coruña",Galicia,2023-05-23,1
+195,Sofía,Molina,sofía.molina194@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-07-08,0
+196,Lucía,Navarro,lucía.navarro195@ejemplo.com,Salamanca,"Castilla y León",2021-02-03,1
+197,Adrián,Molina,adrián.molina196@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-12-08,0
+198,Ana,Pérez,ana.pérez197@ejemplo.com,Bilbao,"País Vasco",2021-12-12,1
+199,Ana,Castro,ana.castro198@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-06-17,1
+200,Elena,Sánchez,elena.sánchez199@ejemplo.com,Sevilla,Andalucía,2022-01-15,1
+201,Javier,Ortiz,javier.ortiz200@ejemplo.com,"San Sebastián","País Vasco",2021-10-01,1
+202,Adrián,Ortiz,adrián.ortiz201@ejemplo.com,"San Sebastián","País Vasco",2021-02-23,0
+203,Diego,Martínez,diego.martínez202@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2023-04-16,1
+204,María,Ruiz,maría.ruiz203@ejemplo.com,Bilbao,"País Vasco",2021-08-09,0
+205,Nora,García,nora.garcía204@ejemplo.com,Zaragoza,Aragón,2023-01-12,1
+206,Irene,Ruiz,irene.ruiz205@ejemplo.com,Barcelona,Cataluña,2022-06-05,1
+207,Adrián,Castro,adrián.castro206@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-03-08,0
+208,Nora,López,nora.lópez207@ejemplo.com,Granada,Andalucía,2022-01-03,0
+209,Leo,Torres,leo.torres208@ejemplo.com,Málaga,Andalucía,2022-08-26,1
+210,Ana,Castro,ana.castro209@ejemplo.com,Logroño,"La Rioja",2022-10-28,1
+211,Pablo,Romero,pablo.romero210@ejemplo.com,Sevilla,Andalucía,2023-02-20,1
+212,Laura,Castro,laura.castro211@ejemplo.com,Alicante,"Comunidad Valenciana",2023-03-20,0
+213,Leo,Martínez,leo.martínez212@ejemplo.com,Elche,"Comunidad Valenciana",2021-02-22,1
+214,Sofía,Navarro,sofía.navarro213@ejemplo.com,"San Sebastián","País Vasco",2022-01-05,1
+215,María,Romero,maría.romero214@ejemplo.com,Valladolid,"Castilla y León",2021-04-04,0
+216,Diego,Delgado,diego.delgado215@ejemplo.com,Badajoz,Extremadura,2022-10-29,1
+217,Lucía,Díaz,lucía.díaz216@ejemplo.com,Gijón,Asturias,2022-03-25,1
+218,Ana,Martínez,ana.martínez217@ejemplo.com,Logroño,"La Rioja",2022-10-21,1
+219,David,Fernández,david.fernández218@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-11-21,0
+220,Adrián,Ruiz,adrián.ruiz219@ejemplo.com,Sevilla,Andalucía,2021-12-09,1
+221,Carlos,Castro,carlos.castro220@ejemplo.com,"A Coruña",Galicia,2021-02-17,0
+222,Marc,Álvarez,marc.álvarez221@ejemplo.com,Sevilla,Andalucía,2021-07-18,1
+223,Hugo,Navarro,hugo.navarro222@ejemplo.com,Alicante,"Comunidad Valenciana",2021-10-24,0
+224,Ana,Sánchez,ana.sánchez223@ejemplo.com,Madrid,"Comunidad de Madrid",2021-03-08,0
+225,Nora,Molina,nora.molina224@ejemplo.com,Bilbao,"País Vasco",2022-06-08,0
+226,Alicia,Moreno,alicia.moreno225@ejemplo.com,"A Coruña",Galicia,2021-02-27,0
+227,Leo,López,leo.lópez226@ejemplo.com,Oviedo,Asturias,2021-06-27,0
+228,Laura,Delgado,laura.delgado227@ejemplo.com,Oviedo,Asturias,2022-10-14,1
+229,Lucía,Fernández,lucía.fernández228@ejemplo.com,Gijón,Asturias,2022-03-18,1
+230,Leo,López,leo.lópez229@ejemplo.com,Gijón,Asturias,2021-07-25,0
+231,Irene,Ortiz,irene.ortiz230@ejemplo.com,Bilbao,"País Vasco",2021-05-16,1
+232,Javier,Delgado,javier.delgado231@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-05-29,1
+233,Irene,Suárez,irene.suárez232@ejemplo.com,Granada,Andalucía,2023-03-26,0
+234,Clara,Gómez,clara.gómez233@ejemplo.com,Córdoba,Andalucía,2022-03-12,0
+235,Elena,Fernández,elena.fernández234@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2023-04-24,0
+236,Hugo,Fernández,hugo.fernández235@ejemplo.com,Córdoba,Andalucía,2022-05-14,0
+237,Clara,Gómez,clara.gómez236@ejemplo.com,Santander,Cantabria,2022-04-18,0
+238,Clara,Ruiz,clara.ruiz237@ejemplo.com,Málaga,Andalucía,2022-08-19,0
+239,Sofía,Sánchez,sofía.sánchez238@ejemplo.com,Málaga,Andalucía,2023-03-02,0
+240,Alicia,García,alicia.garcía239@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-09-06,1
+241,Laura,Molina,laura.molina240@ejemplo.com,Oviedo,Asturias,2021-09-27,1
+242,Carlos,Moreno,carlos.moreno241@ejemplo.com,Gijón,Asturias,2022-01-25,0
+243,Nora,Ruiz,nora.ruiz242@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-06-23,0
+244,Diego,Romero,diego.romero243@ejemplo.com,Zaragoza,Aragón,2023-01-05,1
+245,María,Gómez,maría.gómez244@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2021-09-23,0
+246,Clara,López,clara.lópez245@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-12-29,0
+247,Diego,Álvarez,diego.álvarez246@ejemplo.com,Badajoz,Extremadura,2022-07-30,1
+248,Javier,Álvarez,javier.álvarez247@ejemplo.com,Barcelona,Cataluña,2021-11-26,1
+249,Lucía,Moreno,lucía.moreno248@ejemplo.com,"A Coruña",Galicia,2021-10-10,0
+250,Nora,Molina,nora.molina249@ejemplo.com,Elche,"Comunidad Valenciana",2022-06-02,0
+251,Carlos,Moreno,carlos.moreno250@ejemplo.com,Oviedo,Asturias,2022-01-15,1
+252,Laura,Navarro,laura.navarro251@ejemplo.com,"San Sebastián","País Vasco",2023-02-12,1
+253,Elena,Pérez,elena.pérez252@ejemplo.com,Valencia,"Comunidad Valenciana",2022-04-01,0
+254,Nora,Fernández,nora.fernández253@ejemplo.com,Valencia,"Comunidad Valenciana",2022-04-15,0
+255,Carlos,Fernández,carlos.fernández254@ejemplo.com,Murcia,"Región de Murcia",2021-10-03,0
+256,Elena,Ruiz,elena.ruiz255@ejemplo.com,Barcelona,Cataluña,2022-08-30,1
+257,Javier,Molina,javier.molina256@ejemplo.com,Barcelona,Cataluña,2021-05-23,0
+258,Elena,Fernández,elena.fernández257@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2023-05-30,0
+259,Leo,Navarro,leo.navarro258@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-06-21,0
+260,Carlos,Martínez,carlos.martínez259@ejemplo.com,Logroño,"La Rioja",2021-07-17,0
+261,Adrián,Ortiz,adrián.ortiz260@ejemplo.com,Logroño,"La Rioja",2023-05-20,1
+262,Leo,Moreno,leo.moreno261@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2021-09-19,0
+263,Marc,Vega,marc.vega262@ejemplo.com,Santander,Cantabria,2021-04-17,0
+264,Clara,Gómez,clara.gómez263@ejemplo.com,Elche,"Comunidad Valenciana",2022-05-10,0
+265,David,Díaz,david.díaz264@ejemplo.com,Madrid,"Comunidad de Madrid",2023-06-11,0
+266,Alicia,Sánchez,alicia.sánchez265@ejemplo.com,Bilbao,"País Vasco",2022-06-20,1
+267,Sofía,Fernández,sofía.fernández266@ejemplo.com,Valencia,"Comunidad Valenciana",2022-06-14,1
+268,Hugo,Díaz,hugo.díaz267@ejemplo.com,"San Sebastián","País Vasco",2023-03-02,1
+269,Leo,Ruiz,leo.ruiz268@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2021-03-17,0
+270,Pablo,Moreno,pablo.moreno269@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-06-07,1
+271,Clara,López,clara.lópez270@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-08-09,0
+272,Carlos,Molina,carlos.molina271@ejemplo.com,"A Coruña",Galicia,2021-12-22,0
+273,Marc,Ruiz,marc.ruiz272@ejemplo.com,Valladolid,"Castilla y León",2022-11-24,1
+274,Laura,Díaz,laura.díaz273@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-01-10,0
+275,Diego,Díaz,diego.díaz274@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-03-01,1
+276,María,Navarro,maría.navarro275@ejemplo.com,Vigo,Galicia,2021-05-12,0
+277,Clara,García,clara.garcía276@ejemplo.com,Murcia,"Región de Murcia",2021-05-04,0
+278,Elena,Vega,elena.vega277@ejemplo.com,Elche,"Comunidad Valenciana",2021-06-29,1
+279,Marc,Delgado,marc.delgado278@ejemplo.com,Córdoba,Andalucía,2022-01-31,0
+280,Nora,Díaz,nora.díaz279@ejemplo.com,Murcia,"Región de Murcia",2022-09-09,1
+281,Pablo,Delgado,pablo.delgado280@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2023-05-30,1
+282,Hugo,Castro,hugo.castro281@ejemplo.com,Granada,Andalucía,2021-11-13,1
+283,Irene,Sánchez,irene.sánchez282@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2021-08-06,0
+284,Elena,Martínez,elena.martínez283@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2022-12-03,0
+285,Javier,López,javier.lópez284@ejemplo.com,Bilbao,"País Vasco",2021-02-21,0
+286,Sofía,Fernández,sofía.fernández285@ejemplo.com,"Palma de Mallorca","Illes Balears",2022-12-02,0
+287,Laura,Molina,laura.molina286@ejemplo.com,Alicante,"Comunidad Valenciana",2021-08-02,1
+288,Alicia,Gómez,alicia.gómez287@ejemplo.com,Gijón,Asturias,2023-04-07,0
+289,David,García,david.garcía288@ejemplo.com,Sevilla,Andalucía,2021-08-03,1
+290,Alicia,Martínez,alicia.martínez289@ejemplo.com,Barcelona,Cataluña,2022-10-18,1
+291,Elena,López,elena.lópez290@ejemplo.com,Granada,Andalucía,2023-04-27,1
+292,María,García,maría.garcía291@ejemplo.com,Madrid,"Comunidad de Madrid",2023-05-12,0
+293,Irene,Díaz,irene.díaz292@ejemplo.com,Barcelona,Cataluña,2021-02-25,1
+294,Elena,Ruiz,elena.ruiz293@ejemplo.com,Barcelona,Cataluña,2022-11-21,1
+295,Alicia,Navarro,alicia.navarro294@ejemplo.com,Valladolid,"Castilla y León",2023-03-11,1
+296,Adrián,Álvarez,adrián.álvarez295@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2023-04-13,0
+297,Alicia,López,alicia.lópez296@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2023-06-10,0
+298,Carlos,Ortiz,carlos.ortiz297@ejemplo.com,Granada,Andalucía,2022-09-12,1
+299,Alicia,Castro,alicia.castro298@ejemplo.com,"Palma de Mallorca","Illes Balears",2023-02-02,0
+300,David,Álvarez,david.álvarez299@ejemplo.com,Oviedo,Asturias,2023-04-24,0
+301,Hugo,Martínez,hugo.martínez300@ejemplo.com,Sevilla,Andalucía,2021-11-02,1
+302,Marc,Fernández,marc.fernández301@ejemplo.com,Málaga,Andalucía,2023-04-07,0
+303,Clara,Fernández,clara.fernández302@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-12-02,0
+304,David,Ruiz,david.ruiz303@ejemplo.com,Córdoba,Andalucía,2022-03-07,1
+305,María,Díaz,maría.díaz304@ejemplo.com,Oviedo,Asturias,2023-01-13,0
+306,Pablo,Pérez,pablo.pérez305@ejemplo.com,Zaragoza,Aragón,2021-02-15,1
+307,Pablo,Molina,pablo.molina306@ejemplo.com,Murcia,"Región de Murcia",2022-06-03,0
+308,Alicia,Moreno,alicia.moreno307@ejemplo.com,"A Coruña",Galicia,2021-01-11,1
+309,Nora,Molina,nora.molina308@ejemplo.com,Santander,Cantabria,2021-10-21,1
+310,Irene,López,irene.lópez309@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2023-01-29,0
+311,Marc,Torres,marc.torres310@ejemplo.com,Salamanca,"Castilla y León",2021-10-30,1
+312,Javier,Romero,javier.romero311@ejemplo.com,Valencia,"Comunidad Valenciana",2022-06-09,1
+313,Sofía,García,sofía.garcía312@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2021-09-12,1
+314,Diego,Fernández,diego.fernández313@ejemplo.com,Santander,Cantabria,2021-06-28,1
+315,Marc,Gómez,marc.gómez314@ejemplo.com,Vigo,Galicia,2022-06-12,1
+316,Clara,Vega,clara.vega315@ejemplo.com,Madrid,"Comunidad de Madrid",2021-03-12,1
+317,Irene,Ruiz,irene.ruiz316@ejemplo.com,Barcelona,Cataluña,2022-04-21,1
+318,Marc,Castro,marc.castro317@ejemplo.com,Santander,Cantabria,2022-10-07,0
+319,Sofía,Torres,sofía.torres318@ejemplo.com,"Palma de Mallorca","Illes Balears",2021-05-24,1
+320,Elena,Navarro,elena.navarro319@ejemplo.com,Madrid,"Comunidad de Madrid",2022-10-28,0
+321,María,Moreno,maría.moreno320@ejemplo.com,Zaragoza,Aragón,2022-02-15,0
+322,Marc,Ortiz,marc.ortiz321@ejemplo.com,Murcia,"Región de Murcia",2021-07-28,0
+323,Nora,García,nora.garcía322@ejemplo.com,Zaragoza,Aragón,2023-02-28,1
+324,Ana,Vega,ana.vega323@ejemplo.com,Barcelona,Cataluña,2021-09-13,1
+325,Diego,Fernández,diego.fernández324@ejemplo.com,Murcia,"Región de Murcia",2021-08-27,1
+326,Pablo,Suárez,pablo.suárez325@ejemplo.com,Santander,Cantabria,2022-06-01,1
+327,Lucía,Ruiz,lucía.ruiz326@ejemplo.com,Vigo,Galicia,2021-09-13,0
+328,Adrián,Romero,adrián.romero327@ejemplo.com,Logroño,"La Rioja",2021-05-08,0
+329,Ana,López,ana.lópez328@ejemplo.com,Córdoba,Andalucía,2023-05-05,1
+330,Alicia,Moreno,alicia.moreno329@ejemplo.com,Zaragoza,Aragón,2021-07-02,1
+331,Lucía,Gómez,lucía.gómez330@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2023-06-05,1
+332,María,García,maría.garcía331@ejemplo.com,Santander,Cantabria,2021-03-05,1
+333,Pablo,Sánchez,pablo.sánchez332@ejemplo.com,Bilbao,"País Vasco",2022-09-22,0
+334,Laura,López,laura.lópez333@ejemplo.com,Valladolid,"Castilla y León",2021-10-19,1
+335,Adrián,Álvarez,adrián.álvarez334@ejemplo.com,Sevilla,Andalucía,2023-05-12,1
+336,Adrián,Gómez,adrián.gómez335@ejemplo.com,Granada,Andalucía,2022-01-06,1
+337,Diego,Sánchez,diego.sánchez336@ejemplo.com,Barcelona,Cataluña,2021-12-25,1
+338,Hugo,Suárez,hugo.suárez337@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-10-23,0
+339,Marc,Ortiz,marc.ortiz338@ejemplo.com,Madrid,"Comunidad de Madrid",2021-05-03,1
+340,Pablo,Fernández,pablo.fernández339@ejemplo.com,Vigo,Galicia,2022-06-25,0
+341,Lucía,Castro,lucía.castro340@ejemplo.com,Barcelona,Cataluña,2021-06-20,1
+342,Sofía,Martínez,sofía.martínez341@ejemplo.com,Salamanca,"Castilla y León",2022-05-03,1
+343,Alicia,García,alicia.garcía342@ejemplo.com,"Palma de Mallorca","Illes Balears",2022-02-25,1
+344,Ana,Fernández,ana.fernández343@ejemplo.com,Zaragoza,Aragón,2021-01-30,1
+345,Javier,Molina,javier.molina344@ejemplo.com,Logroño,"La Rioja",2021-01-18,0
+346,Clara,López,clara.lópez345@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2022-06-19,0
+347,Hugo,Ortiz,hugo.ortiz346@ejemplo.com,Vigo,Galicia,2023-03-07,1
+348,David,Díaz,david.díaz347@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-01-29,1
+349,Marc,Sánchez,marc.sánchez348@ejemplo.com,Elche,"Comunidad Valenciana",2021-03-31,0
+350,Laura,Delgado,laura.delgado349@ejemplo.com,Oviedo,Asturias,2022-12-12,1
+351,Diego,Martínez,diego.martínez350@ejemplo.com,Logroño,"La Rioja",2021-03-14,1
+352,David,Fernández,david.fernández351@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-12-03,0
+353,Leo,Fernández,leo.fernández352@ejemplo.com,"A Coruña",Galicia,2021-05-16,0
+354,Pablo,Romero,pablo.romero353@ejemplo.com,Valladolid,"Castilla y León",2023-02-01,1
+355,Diego,Navarro,diego.navarro354@ejemplo.com,"A Coruña",Galicia,2023-05-02,0
+356,Laura,Vega,laura.vega355@ejemplo.com,Badajoz,Extremadura,2022-02-01,1
+357,Leo,Castro,leo.castro356@ejemplo.com,Murcia,"Región de Murcia",2023-06-15,1
+358,Sergio,Vega,sergio.vega357@ejemplo.com,Toledo,"Castilla-La Mancha",2021-06-18,1
+359,Leo,Ruiz,leo.ruiz358@ejemplo.com,Valladolid,"Castilla y León",2021-04-05,1
+360,Alicia,Pérez,alicia.pérez359@ejemplo.com,Madrid,"Comunidad de Madrid",2022-04-29,1
+361,Leo,López,leo.lópez360@ejemplo.com,Gijón,Asturias,2021-07-11,0
+362,Diego,Vega,diego.vega361@ejemplo.com,Málaga,Andalucía,2021-12-26,1
+363,Sergio,Ortiz,sergio.ortiz362@ejemplo.com,Zaragoza,Aragón,2021-04-22,1
+364,Nora,Romero,nora.romero363@ejemplo.com,"San Sebastián","País Vasco",2023-03-04,1
+365,Sergio,Martínez,sergio.martínez364@ejemplo.com,Valencia,"Comunidad Valenciana",2023-02-02,0
+366,Irene,Pérez,irene.pérez365@ejemplo.com,Málaga,Andalucía,2021-10-21,0
+367,María,Delgado,maría.delgado366@ejemplo.com,Toledo,"Castilla-La Mancha",2023-05-06,1
+368,Laura,García,laura.garcía367@ejemplo.com,Valladolid,"Castilla y León",2023-03-28,1
+369,Diego,Gómez,diego.gómez368@ejemplo.com,"San Sebastián","País Vasco",2023-05-03,0
+370,Hugo,Álvarez,hugo.álvarez369@ejemplo.com,Elche,"Comunidad Valenciana",2023-05-27,1
+371,Clara,Díaz,clara.díaz370@ejemplo.com,Gijón,Asturias,2023-04-08,1
+372,Leo,Sánchez,leo.sánchez371@ejemplo.com,Badajoz,Extremadura,2022-07-26,0
+373,Diego,Ruiz,diego.ruiz372@ejemplo.com,Bilbao,"País Vasco",2023-04-25,1
+374,Hugo,Sánchez,hugo.sánchez373@ejemplo.com,Logroño,"La Rioja",2022-12-23,1
+375,Alicia,Pérez,alicia.pérez374@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2022-12-05,1
+376,Nora,Fernández,nora.fernández375@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2022-03-06,1
+377,David,Castro,david.castro376@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2022-07-21,1
+378,David,Delgado,david.delgado377@ejemplo.com,"A Coruña",Galicia,2021-08-18,0
+379,Diego,Vega,diego.vega378@ejemplo.com,Málaga,Andalucía,2021-11-27,0
+380,Leo,Fernández,leo.fernández379@ejemplo.com,Vigo,Galicia,2021-07-16,1
+381,Alicia,Pérez,alicia.pérez380@ejemplo.com,Bilbao,"País Vasco",2022-11-25,1
+382,David,Fernández,david.fernández381@ejemplo.com,"San Sebastián","País Vasco",2023-02-24,1
+383,Alicia,Moreno,alicia.moreno382@ejemplo.com,Málaga,Andalucía,2021-07-26,1
+384,Elena,Ruiz,elena.ruiz383@ejemplo.com,Madrid,"Comunidad de Madrid",2023-01-28,0
+385,Elena,Moreno,elena.moreno384@ejemplo.com,Murcia,"Región de Murcia",2021-04-28,1
+386,Sofía,Romero,sofía.romero385@ejemplo.com,Santander,Cantabria,2021-07-28,1
+387,David,Pérez,david.pérez386@ejemplo.com,Murcia,"Región de Murcia",2021-09-13,0
+388,Sofía,Ortiz,sofía.ortiz387@ejemplo.com,Elche,"Comunidad Valenciana",2023-05-27,1
+389,David,Martínez,david.martínez388@ejemplo.com,Toledo,"Castilla-La Mancha",2022-02-15,1
+390,Diego,Delgado,diego.delgado389@ejemplo.com,Málaga,Andalucía,2022-08-08,0
+391,Alicia,Pérez,alicia.pérez390@ejemplo.com,Bilbao,"País Vasco",2022-09-30,0
+392,Diego,Romero,diego.romero391@ejemplo.com,Granada,Andalucía,2023-02-06,1
+393,Lucía,Castro,lucía.castro392@ejemplo.com,Valencia,"Comunidad Valenciana",2021-01-29,0
+394,Pablo,Díaz,pablo.díaz393@ejemplo.com,Salamanca,"Castilla y León",2022-08-20,1
+395,Alicia,Pérez,alicia.pérez394@ejemplo.com,"San Sebastián","País Vasco",2022-08-17,0
+396,Irene,Suárez,irene.suárez395@ejemplo.com,Alicante,"Comunidad Valenciana",2022-11-16,1
+397,Diego,Navarro,diego.navarro396@ejemplo.com,Elche,"Comunidad Valenciana",2021-01-14,0
+398,David,Delgado,david.delgado397@ejemplo.com,Salamanca,"Castilla y León",2021-12-19,1
+399,Clara,López,clara.lópez398@ejemplo.com,Córdoba,Andalucía,2022-12-24,0
+400,Nora,Moreno,nora.moreno399@ejemplo.com,Logroño,"La Rioja",2021-11-15,1
+401,Alicia,Delgado,alicia.delgado400@ejemplo.com,Valencia,"Comunidad Valenciana",2022-08-17,0
+402,Sergio,Gómez,sergio.gómez401@ejemplo.com,Barcelona,Cataluña,2022-07-30,1
+403,Lucía,Delgado,lucía.delgado402@ejemplo.com,Sevilla,Andalucía,2022-09-15,1
+404,Nora,García,nora.garcía403@ejemplo.com,Málaga,Andalucía,2023-04-04,0
+405,Clara,Suárez,clara.suárez404@ejemplo.com,Barcelona,Cataluña,2022-10-18,0
+406,Clara,Torres,clara.torres405@ejemplo.com,Bilbao,"País Vasco",2021-07-17,0
+407,Elena,Díaz,elena.díaz406@ejemplo.com,Murcia,"Región de Murcia",2021-10-31,0
+408,Marc,Pérez,marc.pérez407@ejemplo.com,Salamanca,"Castilla y León",2021-12-31,1
+409,Sofía,Ruiz,sofía.ruiz408@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2021-12-02,1
+410,Ana,Martínez,ana.martínez409@ejemplo.com,"San Sebastián","País Vasco",2022-07-25,1
+411,Clara,Ortiz,clara.ortiz410@ejemplo.com,Sevilla,Andalucía,2023-05-13,1
+412,Javier,Gómez,javier.gómez411@ejemplo.com,Vigo,Galicia,2023-04-08,0
+413,Elena,Navarro,elena.navarro412@ejemplo.com,Alicante,"Comunidad Valenciana",2023-01-26,1
+414,Hugo,García,hugo.garcía413@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2021-06-20,0
+415,Adrián,Fernández,adrián.fernández414@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2023-02-25,1
+416,Adrián,Delgado,adrián.delgado415@ejemplo.com,Córdoba,Andalucía,2021-07-16,0
+417,Adrián,Martínez,adrián.martínez416@ejemplo.com,Gijón,Asturias,2022-06-06,0
+418,Marc,Sánchez,marc.sánchez417@ejemplo.com,Bilbao,"País Vasco",2023-05-14,1
+419,Laura,Martínez,laura.martínez418@ejemplo.com,Salamanca,"Castilla y León",2023-06-08,0
+420,Clara,Castro,clara.castro419@ejemplo.com,Toledo,"Castilla-La Mancha",2022-01-29,0
+421,Adrián,Gómez,adrián.gómez420@ejemplo.com,"A Coruña",Galicia,2021-12-25,1
+422,Pablo,Moreno,pablo.moreno421@ejemplo.com,Valladolid,"Castilla y León",2022-05-24,1
+423,Nora,Molina,nora.molina422@ejemplo.com,Bilbao,"País Vasco",2022-06-19,0
+424,Hugo,Moreno,hugo.moreno423@ejemplo.com,Córdoba,Andalucía,2022-03-09,0
+425,Clara,Romero,clara.romero424@ejemplo.com,Salamanca,"Castilla y León",2021-05-03,0
+426,David,Torres,david.torres425@ejemplo.com,Córdoba,Andalucía,2021-09-23,1
+427,Laura,Sánchez,laura.sánchez426@ejemplo.com,Málaga,Andalucía,2022-02-12,0
+428,Ana,Moreno,ana.moreno427@ejemplo.com,Vigo,Galicia,2021-01-25,1
+429,Elena,Delgado,elena.delgado428@ejemplo.com,Oviedo,Asturias,2022-05-05,1
+430,Sofía,Díaz,sofía.díaz429@ejemplo.com,Murcia,"Región de Murcia",2023-06-02,0
+431,Laura,Vega,laura.vega430@ejemplo.com,Badajoz,Extremadura,2022-06-20,0
+432,Hugo,Martínez,hugo.martínez431@ejemplo.com,Sevilla,Andalucía,2021-07-19,0
+433,Sofía,Romero,sofía.romero432@ejemplo.com,Madrid,"Comunidad de Madrid",2021-06-12,0
+434,Diego,Romero,diego.romero433@ejemplo.com,Bilbao,"País Vasco",2022-08-20,1
+435,Elena,Sánchez,elena.sánchez434@ejemplo.com,Málaga,Andalucía,2021-09-28,0
+436,Marc,Gómez,marc.gómez435@ejemplo.com,Badajoz,Extremadura,2022-04-05,0
+437,Nora,Díaz,nora.díaz436@ejemplo.com,"Palma de Mallorca","Illes Balears",2022-09-03,1
+438,Adrián,Navarro,adrián.navarro437@ejemplo.com,Murcia,"Región de Murcia",2022-05-13,0
+439,Marc,García,marc.garcía438@ejemplo.com,Alicante,"Comunidad Valenciana",2022-01-02,0
+440,Adrián,López,adrián.lópez439@ejemplo.com,"A Coruña",Galicia,2022-10-31,1
+441,Laura,Fernández,laura.fernández440@ejemplo.com,"Palma de Mallorca","Illes Balears",2021-08-04,1
+442,Leo,Fernández,leo.fernández441@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2021-09-13,1
+443,David,Navarro,david.navarro442@ejemplo.com,"A Coruña",Galicia,2022-09-02,1
+444,Clara,Romero,clara.romero443@ejemplo.com,Vigo,Galicia,2021-05-12,0
+445,Sergio,Vega,sergio.vega444@ejemplo.com,Sevilla,Andalucía,2021-11-14,0
+446,Irene,Sánchez,irene.sánchez445@ejemplo.com,Badajoz,Extremadura,2023-06-10,1
+447,Adrián,Vega,adrián.vega446@ejemplo.com,Bilbao,"País Vasco",2021-03-12,1
+448,David,Molina,david.molina447@ejemplo.com,Elche,"Comunidad Valenciana",2022-09-21,1
+449,Carlos,Álvarez,carlos.álvarez448@ejemplo.com,Oviedo,Asturias,2022-05-09,1
+450,María,López,maría.lópez449@ejemplo.com,Oviedo,Asturias,2022-06-02,1
+451,Sergio,Ortiz,sergio.ortiz450@ejemplo.com,Badajoz,Extremadura,2021-06-18,0
+452,Irene,Castro,irene.castro451@ejemplo.com,"A Coruña",Galicia,2022-08-21,0
+453,Carlos,Martínez,carlos.martínez452@ejemplo.com,"Palma de Mallorca","Illes Balears",2021-03-20,1
+454,Marc,Ortiz,marc.ortiz453@ejemplo.com,Valencia,"Comunidad Valenciana",2023-05-17,0
+455,Sergio,Romero,sergio.romero454@ejemplo.com,Elche,"Comunidad Valenciana",2022-01-30,1
+456,Elena,López,elena.lópez455@ejemplo.com,Vigo,Galicia,2021-01-20,0
+457,Pablo,Ruiz,pablo.ruiz456@ejemplo.com,Vigo,Galicia,2021-03-07,1
+458,Javier,Gómez,javier.gómez457@ejemplo.com,Salamanca,"Castilla y León",2022-12-18,1
+459,Carlos,Sánchez,carlos.sánchez458@ejemplo.com,Toledo,"Castilla-La Mancha",2022-06-05,1
+460,Irene,Suárez,irene.suárez459@ejemplo.com,Zaragoza,Aragón,2023-05-02,0
+461,Leo,Castro,leo.castro460@ejemplo.com,Pamplona,"Comunidad Foral de Navarra",2023-03-22,0
+462,María,Gómez,maría.gómez461@ejemplo.com,Córdoba,Andalucía,2021-09-03,1
+463,Nora,López,nora.lópez462@ejemplo.com,Badajoz,Extremadura,2021-10-11,1
+464,Clara,Gómez,clara.gómez463@ejemplo.com,Bilbao,"País Vasco",2022-07-08,1
+465,Irene,Pérez,irene.pérez464@ejemplo.com,Valencia,"Comunidad Valenciana",2022-04-01,0
+466,María,Álvarez,maría.álvarez465@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2023-01-18,1
+467,Elena,Pérez,elena.pérez466@ejemplo.com,Toledo,"Castilla-La Mancha",2022-08-31,0
+468,Laura,Suárez,laura.suárez467@ejemplo.com,Granada,Andalucía,2021-12-14,1
+469,Laura,Ortiz,laura.ortiz468@ejemplo.com,Bilbao,"País Vasco",2022-06-23,0
+470,Lucía,Fernández,lucía.fernández469@ejemplo.com,Zaragoza,Aragón,2021-09-27,0
+471,David,Gómez,david.gómez470@ejemplo.com,Córdoba,Andalucía,2022-06-06,1
+472,Lucía,Delgado,lucía.delgado471@ejemplo.com,Logroño,"La Rioja",2023-03-06,0
+473,Hugo,Martínez,hugo.martínez472@ejemplo.com,Valencia,"Comunidad Valenciana",2021-08-02,1
+474,Laura,Fernández,laura.fernández473@ejemplo.com,"Las Palmas de Gran Canaria",Canarias,2021-08-26,1
+475,Carlos,Castro,carlos.castro474@ejemplo.com,Valladolid,"Castilla y León",2021-08-30,0
+476,Leo,Pérez,leo.pérez475@ejemplo.com,"A Coruña",Galicia,2022-09-12,0
+477,Adrián,Romero,adrián.romero476@ejemplo.com,Valencia,"Comunidad Valenciana",2021-06-02,0
+478,María,Castro,maría.castro477@ejemplo.com,Murcia,"Región de Murcia",2021-08-11,0
+479,Sofía,Romero,sofía.romero478@ejemplo.com,Santander,Cantabria,2021-04-04,0
+480,María,Martínez,maría.martínez479@ejemplo.com,Madrid,"Comunidad de Madrid",2022-01-26,0
+481,Hugo,Gómez,hugo.gómez480@ejemplo.com,Barcelona,Cataluña,2021-07-12,1
+482,Diego,Ortiz,diego.ortiz481@ejemplo.com,Badajoz,Extremadura,2022-02-04,0
+483,Alicia,Molina,alicia.molina482@ejemplo.com,Valencia,"Comunidad Valenciana",2021-10-10,1
+484,Hugo,Martínez,hugo.martínez483@ejemplo.com,Logroño,"La Rioja",2022-01-12,0
+485,Hugo,Gómez,hugo.gómez484@ejemplo.com,Barcelona,Cataluña,2022-01-02,1
+486,Carlos,Ortiz,carlos.ortiz485@ejemplo.com,"Santa Cruz de Tenerife",Canarias,2022-10-09,1
+487,María,Navarro,maría.navarro486@ejemplo.com,Málaga,Andalucía,2021-06-18,0
+488,Elena,Delgado,elena.delgado487@ejemplo.com,Vitoria-Gasteiz,"País Vasco",2021-12-31,0
+489,Marc,Pérez,marc.pérez488@ejemplo.com,Badajoz,Extremadura,2022-02-01,1
+490,Ana,Molina,ana.molina489@ejemplo.com,Sevilla,Andalucía,2023-04-25,1
+491,Ana,Suárez,ana.suárez490@ejemplo.com,Toledo,"Castilla-La Mancha",2023-04-21,0
+492,David,Romero,david.romero491@ejemplo.com,Gijón,Asturias,2021-08-25,1
+493,Sofía,García,sofía.garcía492@ejemplo.com,"A Coruña",Galicia,2021-05-17,0
+494,Pablo,Fernández,pablo.fernández493@ejemplo.com,Badajoz,Extremadura,2021-11-14,0
+495,Elena,Castro,elena.castro494@ejemplo.com,Granada,Andalucía,2023-05-12,1
+496,Alicia,Fernández,alicia.fernández495@ejemplo.com,Oviedo,Asturias,2021-03-06,1
+497,Nora,Gómez,nora.gómez496@ejemplo.com,Valladolid,"Castilla y León",2021-08-30,1
+498,David,Ortiz,david.ortiz497@ejemplo.com,Vigo,Galicia,2023-05-07,1
+499,Hugo,Moreno,hugo.moreno498@ejemplo.com,Oviedo,Asturias,2022-08-10,0
+500,Irene,Sánchez,irene.sánchez499@ejemplo.com,Málaga,Andalucía,2021-02-10,0

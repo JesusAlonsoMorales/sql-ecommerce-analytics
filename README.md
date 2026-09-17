@@ -217,10 +217,69 @@ igualmente.
 
 MySQL 8.0 — CTEs, funciones de ventana (`RANK`, `NTILE`, `LAG`),
 procedimientos almacenados, vistas, restricciones `CHECK`, índices
-compuestos.
+compuestos. Power BI — modelo en estrella, tabla de Calendario, tabla
+calculada RFM y medidas DAX.
+
+## Dashboard en Power BI
+
+Para cerrar el ciclo SQL → visualización → decisión de negocio, las 7
+tablas se exportan a CSV desde MySQL Workbench y se cargan en Power BI
+como un **modelo en estrella** (prefijos `DIM_`/`FACT_` para que la
+intención de cada tabla sea obvia de un vistazo):
+
+- **Dimensiones**: `DIM_Clientes`, `DIM_Productos`, `DIM_Categorias`,
+  `DIM_pedidos` (cabecera del pedido — fecha y estado, sin medida propia
+  que sumar, así que funciona como dimensión aunque tenga clave foránea a
+  cliente).
+- **Hechos**: `FACT_lineas_pedido` (grano: una línea de un pedido),
+  `FACT_pagos` (grano: un pago), `FACT_devoluciones` (grano: una
+  devolución).
+- **Tabla de Calendario** generada en DAX (`CALENDAR()`) y marcada como
+  tabla de fechas, para poder usar funciones de time intelligence
+  (`DATEADD`, acumulados).
+- **Tabla calculada `RFM_Clientes`**: reproduce la segmentación RFM de la
+  consulta P9 directamente en DAX (`SUMMARIZE` + `ADDCOLUMNS` +
+  `FILTER`/`COUNTROWS` a modo de `NTILE`), relacionada 1:1 con
+  `DIM_Clientes` para poder filtrar cualquier visual del informe por
+  segmento.
+- **15 medidas DAX** organizadas en carpetas (Ingresos y ventas, Series
+  temporales, Clientes, Calidad y devoluciones): `Ingresos`, `Ticket
+  Medio`, `Margen %`, `Crecimiento MoM %`, `Tasa de Devolución %`, etc.
+
+**Validación cruzada:** los totales del modelo de Power BI (1.379.549,13 €
+de ingresos, 5.283 pedidos, 500 clientes, 2,2% de devolución) coinciden
+exactamente con los resultados de `sql/03_consultas.sql` — el modelo de BI
+no es una reinterpretación de los datos, es el mismo dato verificado dos
+veces con dos herramientas distintas.
+
+### Bugs reales encontrados al montar el modelo (y cómo se detectaron)
+
+Migrar de SQL a un modelo de Power BI no fue solo "exportar y conectar" —
+salieron dos errores de los que se cuelan en cualquier proyecto real:
+
+1. **Truncamiento de decimales por configuración regional.** Al tipar las
+   columnas de dinero en Power Query con la configuración regional
+   española, `129.99` se leía como `12999` (el punto decimal se
+   interpretaba como separador de miles). Se detectó comparando los
+   valores del modelo contra una consulta DAX de control y se corrigió
+   forzando el tipo "Número decimal fijo" con configuración regional
+   inglesa (Reino Unido/EE. UU.), que sí usa el punto como separador
+   decimal.
+2. **Relación de fechas con hora incluida.** La relación entre
+   `DIM_pedidos[fecha_pedido]` (con hora) y `Calendario[Date]` (fechas a
+   medianoche) se creó comparando fecha *y* hora exactas, así que un
+   segmentador por año solo capturaba los pedidos que por azar caían
+   justo a las 00:00:00 — un puñado de casos sobre miles de pedidos. Se
+   detectó al filtrar por año y ver que los KPIs se desplomaban a
+   prácticamente cero, y se corrigió cambiando el comportamiento de la
+   relación a comparar solo la parte de fecha (`DatePartOnly`).
+
+Ambos se verificaron re-ejecutando las medidas clave en DAX y comparando
+contra los totales ya conocidos de SQL antes de darlos por corregidos.
 
 ## Próximos pasos
 
-- [ ] **Dashboard en Power BI** conectado a `vista_valor_vida_cliente` y a
-  las consultas de la Sección 2 (evolución mensual, RFM), para cerrar el
-  ciclo de SQL → visualización → decisión de negocio.
+- [ ] Añadir capturas del dashboard terminado a este README.
+- [ ] Página de Producto y Calidad (top productos, dispersión margen vs.
+  rotación, devoluciones por categoría) — pendiente de construir siguiendo
+  el mismo patrón que Resumen Ejecutivo y Clientes/RFM.
