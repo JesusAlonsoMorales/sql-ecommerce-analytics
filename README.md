@@ -1,4 +1,4 @@
-# ShopSphere — Portfolio de Analítica SQL
+# Portfolio de Analítica SQL
 
 Un proyecto SQL autocontenido que simula una tienda online española de tamaño medio,
 diseñado para responder al tipo de preguntas de negocio que le harían de
