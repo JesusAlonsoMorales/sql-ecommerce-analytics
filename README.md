@@ -255,7 +255,7 @@ veces con dos herramientas distintas.
 ### Bugs reales encontrados al montar el modelo (y cómo se detectaron)
 
 Migrar de SQL a un modelo de Power BI no fue solo "exportar y conectar" —
-salieron dos errores de los que se cuelan en cualquier proyecto real:
+salieron tres errores de los que se cuelan en cualquier proyecto real:
 
 1. **Truncamiento de decimales por configuración regional.** Al tipar las
    columnas de dinero en Power Query con la configuración regional
@@ -273,8 +273,19 @@ salieron dos errores de los que se cuelan en cualquier proyecto real:
    detectó al filtrar por año y ver que los KPIs se desplomaban a
    prácticamente cero, y se corrigió cambiando el comportamiento de la
    relación a comparar solo la parte de fecha (`DatePartOnly`).
+3. **Columnas numéricas importadas como texto.** Al arreglar el bug de
+   configuración regional (punto 1), solo se forzó el tipo en la columna
+   de precio de cada tabla; el resto de columnas (IDs, `cantidad`,
+   fechas) se quedaron con el tipo de texto por defecto del CSV. Pasó
+   inadvertido porque los valores se veían como números en las tablas,
+   hasta que una medida con `SUM` sobre `FACT_lineas_pedido[cantidad]`
+   (de la que depende `Tasa de Devolución %`) falló con el error "la
+   función SUM no admite valores de tipo string". Se corrigió añadiendo
+   un paso explícito `Table.TransformColumnTypes` para las columnas de
+   ID (`Int64`) y fecha (`DateTime`) en `FACT_lineas_pedido`,
+   `DIM_Productos` y `FACT_pagos`.
 
-Ambos se verificaron re-ejecutando las medidas clave en DAX y comparando
+Los tres se verificaron re-ejecutando las medidas clave en DAX y comparando
 contra los totales ya conocidos de SQL antes de darlos por corregidos.
 
 ## Próximos pasos
