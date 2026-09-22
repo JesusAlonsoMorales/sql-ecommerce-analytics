@@ -1,4 +1,4 @@
-# Portfolio de Analítica SQL
+# Portfolio de Analítica SQL + Power BI
 
 Un proyecto SQL autocontenido que simula una tienda online española de tamaño medio,
 diseñado para responder al tipo de preguntas de negocio que le harían de
@@ -8,6 +8,12 @@ clientes, riesgo de fuga, margen de producto y tasas de devolución.
 Todo —esquema, ~20.000 filas de datos sintéticos pero realistas, y 17
 consultas analíticas— es MySQL puro. Sin dependencias externas: clonas,
 ejecutas tres archivos, y consultas.
+
+El mismo análisis se lleva después a un **modelo de Power BI** (modelo en
+estrella, tabla de Calendario, tabla calculada RFM y 24 medidas DAX) —
+ver [Dashboard en Power BI](#dashboard-en-power-bi) más abajo, o
+[descargar el informe (.pbix)](https://raw.githubusercontent.com/JesusAlonsoMorales/sql-ecommerce-analytics/master/PowerBi/An%C3%A1lisis_tienda.pbix)
+directamente.
 
 ## Por qué este proyecto
 
@@ -242,9 +248,11 @@ intención de cada tabla sea obvia de un vistazo):
   `FILTER`/`COUNTROWS` a modo de `NTILE`), relacionada 1:1 con
   `DIM_Clientes` para poder filtrar cualquier visual del informe por
   segmento.
-- **15 medidas DAX** organizadas en carpetas (Ingresos y ventas, Series
-  temporales, Clientes, Calidad y devoluciones): `Ingresos`, `Ticket
-  Medio`, `Margen %`, `Crecimiento MoM %`, `Tasa de Devolución %`, etc.
+- **24 medidas DAX** organizadas en carpetas (Ingresos y ventas, Series
+  temporales, Clientes, Detalle Segmento, Calidad y devoluciones):
+  `Ingresos`, `Ticket Medio`, `Margen %`, `Crecimiento MoM %`, `Tasa de
+  Devolución %`, KPIs de cabecera por segmento (`% Facturacion sobre
+  Total`, `Recencia Media`), etc.
 
 **Validación cruzada:** los totales del modelo de Power BI (1.379.549,13 €
 de ingresos, 5.283 pedidos, 500 clientes, 2,2% de devolución) coinciden
