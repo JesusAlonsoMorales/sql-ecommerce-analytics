@@ -248,17 +248,40 @@ intención de cada tabla sea obvia de un vistazo):
   `FILTER`/`COUNTROWS` a modo de `NTILE`), relacionada 1:1 con
   `DIM_Clientes` para poder filtrar cualquier visual del informe por
   segmento.
-- **24 medidas DAX** organizadas en carpetas (Ingresos y ventas, Series
+- **28 medidas DAX** organizadas en carpetas (Ingresos y ventas, Series
   temporales, Clientes, Detalle Segmento, Calidad y devoluciones):
   `Ingresos`, `Ticket Medio`, `Margen %`, `Crecimiento MoM %`, `Tasa de
   Devolución %`, KPIs de cabecera por segmento (`% Facturacion sobre
-  Total`, `Recencia Media`), etc.
+  Total`, `Recencia Media`), ranking y acumulado de producto para el
+  análisis de Pareto, etc.
 
 **Validación cruzada:** los totales del modelo de Power BI (1.379.549,13 €
 de ingresos, 5.283 pedidos, 500 clientes, 2,2% de devolución) coinciden
 exactamente con los resultados de `sql/03_consultas.sql` — el modelo de BI
 no es una reinterpretación de los datos, es el mismo dato verificado dos
 veces con dos herramientas distintas.
+
+### De la segmentación a la decisión: RFM con acción por cliente
+
+La tabla `RFM_Clientes` no se queda en el segmento — añade una columna
+calculada `AccionSugerida` que traduce cada uno de los 5 tipos de cliente
+en la decisión de negocio concreta que le corresponde:
+
+| Segmento | Perfil (R/F/M) | Acción sugerida |
+|---|---|---|
+| Campeón | Compra reciente, frecuente y de alto gasto | Fidelizar / recompensar |
+| En riesgo (alto valor) | Alto gasto histórico, pero lleva tiempo sin volver | Contacto prioritario |
+| Perdido / Fugado | Inactivo y de gasto históricamente bajo | Campaña de reactivación |
+| Nuevo / Prometedor | Alta reciente, aún con poco histórico | Onboarding / cross-sell |
+| Regular | Sin señal fuerte en ningún eje | Seguimiento estándar |
+
+La página de detalle del informe (con drillthrough desde cualquier
+segmento) baja este razonamiento al cliente individual: para cada uno
+muestra sus puntuaciones `PuntuacionR`/`PuntuacionF`/`PuntuacionM` (1–5),
+su fecha real de última compra y la acción que le corresponde, además de
+un scatter de Frecuencia vs. Monetario (tamaño = Recencia) para ver de un
+vistazo la dispersión dentro del segmento — no todos los "Perdido / Fugado"
+son iguales, y el gráfico lo hace evidente.
 
 ### Bugs reales encontrados al montar el modelo (y cómo se detectaron)
 
@@ -296,9 +319,36 @@ salieron tres errores de los que se cuelan en cualquier proyecto real:
 Los tres se verificaron re-ejecutando las medidas clave en DAX y comparando
 contra los totales ya conocidos de SQL antes de darlos por corregidos.
 
+### Capturas del dashboard
+
+**Resumen ejecutivo** — KPIs de cabecera, ingresos mensuales vs. acumulado,
+ingresos por categoría y segmentación de clientes de un vistazo:
+
+![Resumen ejecutivo](PowerBi/screenshots/01-resumen-ejecutivo.png)
+
+**Clientes y Segmentación RFM** — valor por segmento y ranking de clientes
+por ingresos:
+
+![Clientes y Segmentación RFM](PowerBi/screenshots/02-clientes-segmentacion-rfm.png)
+
+**Detalle de segmento (drillthrough)** — de un clic, del resumen al
+cliente individual: puntuaciones R/F/M, acción sugerida y dispersión
+Frecuencia/Monetario/Recencia:
+
+![Detalle de segmento](PowerBi/screenshots/03-detalle-segmento-drillthrough.png)
+
+**Top productos** — margen bruto, unidades vendidas y curva de Pareto
+(80/20) por producto:
+
+![Top productos](PowerBi/screenshots/04-top-productos.png)
+
 ## Próximos pasos
 
-- [ ] Añadir capturas del dashboard terminado a este README.
-- [ ] Página de Producto y Calidad (top productos, dispersión margen vs.
-  rotación, devoluciones por categoría) — pendiente de construir siguiendo
-  el mismo patrón que Resumen Ejecutivo y Clientes/RFM.
+El dashboard está completo (4 páginas: Resumen Ejecutivo, Clientes/RFM con
+drillthrough, y Top Productos con análisis de Pareto). Posibles siguientes
+pasos si el proyecto sigue creciendo:
+
+- [ ] Botón de exportar la lista de clientes por segmento a Excel/CSV para
+  uso operativo real (más allá de portfolio).
+- [ ] Publicar el informe en Power BI Service para poder embeberlo en vivo
+  en la web, en lugar de solo capturas y descarga del `.pbix`.
