@@ -1,5 +1,7 @@
 # Portfolio de Analítica SQL + Power BI
 
+> 🚀 **Este proyecto, explicado y en formato interactivo, en el [portfolio de Jesús Alonso](https://jesusalonsomorales.github.io/#proyecto-sql).**
+
 Un proyecto SQL autocontenido que simula una tienda online española de tamaño medio,
 diseñado para responder al tipo de preguntas de negocio que le harían de
 verdad a un analista de datos: tendencias de ingresos, segmentación de
